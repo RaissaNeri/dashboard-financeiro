@@ -47,7 +47,7 @@ Também entendi melhor o poder do CSS pra deixar o visual bonito e funcional.
 
 ## 🌐 Veja o site online
 
-👉 [Acessar projeto no Netlify](https://dashboard-financeiro-raissaneri.netlify.app)
+👉 [Acessar projeto](https://dashboard-financeiro-raissaneri.netlify.app)
 
 ---
 📧 **Email:** [issaneri190@gmail.com](mailto:issaneri190@gmail.com)  
