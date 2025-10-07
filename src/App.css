@@ -1,0 +1,259 @@
+/* === GERAL ===
+   fundo escuro pq dá cara de dashboard profissional (tipo fintech mesmo)
+   fonte Poppins pra deixar o texto mais bonito e moderno
+*/
+body {
+  margin: 0;
+  background-color: #0d1117;
+  color: #e5e5e5;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+/* tudo dentro do dashboard fica centralizado e com limite pra não ficar gigante */
+.dashboard {
+  width: 100%;
+  max-width: 1000px;
+  padding: 30px;
+}
+
+/* === CABEÇALHO ===
+   parte do título do site, tipo “Dashboard Financeiro”
+*/
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* o h1 é o título principal (a cor #00c9a7 é um verde água bem tech) */
+.header h1 {
+  color: #00c9a7;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  color: #aaa;
+}
+
+/* === CARDS ===
+   onde mostra entradas, saídas e saldo.
+   deixei lado a lado com flexbox e gap pra dar espaço entre eles
+*/
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap; /* se a tela for pequena, eles quebram pra baixo */
+}
+
+/* estilo dos quadradinhos (cards) */
+.card {
+  flex: 1;
+  background: #111827;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 255, 200, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+/* quando passa o mouse em cima, dá um leve “pop” pra parecer interativo */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(0, 255, 200, 0.15);
+}
+
+/* título dentro do card */
+.card h3 {
+  color: #ccc;
+  font-weight: 500;
+}
+
+/* valor dentro do card, tipo R$ 2000 */
+.card .valor {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+/* cor especial pro saldo total (dá destaque) */
+.card.saldo .valor {
+  color: #00c9a7;
+}
+
+/* === GRÁFICO ===
+   parte onde aparece o gráfico do Chart.js
+*/
+.grafico {
+  background-color: #111827;
+  border-radius: 12px;
+  padding: 30px;
+  margin-top: 40px;
+  box-shadow: 0 0 15px rgba(0, 255, 170, 0.1);
+}
+
+/* título do gráfico */
+.grafico h2 {
+  color: #00c9a7;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* centraliza o gráfico */
+.grafico-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* === NOVA TRANSAÇÃO ===
+   aqui é onde o usuário adiciona novas entradas/saídas
+*/
+.nova-transacao {
+  background-color: #111827;
+  padding: 30px;
+  border-radius: 12px;
+  margin-top: 40px;
+  box-shadow: 0 0 15px rgba(0, 255, 170, 0.08);
+}
+
+/* título dessa parte */
+.nova-transacao h2 {
+  color: #00c9a7;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* campos e select (entrada, saída, valor, descrição) */
+.nova-transacao input,
+.nova-transacao select {
+  margin: 8px;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background-color: #161b22;
+  color: #fff;
+  font-size: 0.95rem;
+  width: 180px;
+}
+
+/* botão “Adicionar” */
+.nova-transacao button {
+  background-color: #00c9a7;
+  color: #0d1117;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+/* efeito no botão quando passa o mouse */
+.nova-transacao button:hover {
+  background-color: #00f0c8;
+  transform: scale(1.05);
+}
+
+/* === HISTÓRICOS ===
+   parte onde aparecem as transações adicionadas
+*/
+.historico {
+  background-color: #111827;
+  padding: 25px;
+  border-radius: 12px;
+  margin-top: 40px;
+  box-shadow: 0 0 15px rgba(0, 255, 170, 0.08);
+}
+
+/* título “Histórico de Transações” */
+.historico h2 {
+  color: #00c9a7;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.historico ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* cada item do histórico (entrada ou saída) */
+.historico li {
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+/* cores diferentes pras entradas e saídas */
+.historico li.positivo {
+  background-color: rgba(0, 255, 150, 0.15);
+  color: #00ffae;
+}
+
+.historico li.negativo {
+  background-color: rgba(255, 50, 50, 0.15);
+  color: #ff6464;
+}
+
+/* === RODAPÉ ===
+   o textinho final de crédito
+*/
+.footer {
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 50px;
+  padding: 20px 0;
+}
+/* ======= RESPONSIVIDADE (pra celular e tablet) ======= */
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .nova-transacao input,
+  .nova-transacao select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .nova-transacao button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .grafico {
+    padding: 15px;
+  }
+
+  .grafico-container {
+    width: 100%;
+  }
+
+  .historico {
+    padding: 15px;
+  }
+
+  .dashboard {
+    padding: 15px;
+  }
+
+  .header h1 {
+    font-size: 1.6rem;
+  }
+
+  .header p {
+    font-size: 0.9rem;
+  }
+}
