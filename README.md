@@ -55,5 +55,3 @@ Também entendi melhor o poder do CSS pra deixar o visual bonito e funcional.
 🌐 **Portfólio:** [meuportifolio-raissaneri.netlify.app](https://meuportifolio-raissaneri.netlify.app)
 
 ---
-
-✨ *“Aprendendo um pouco mais a cada linha de código.”*
