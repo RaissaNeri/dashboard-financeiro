@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+#  Dashboard Financeiro 💰
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Oi! 👋  
+Esse é um dos meus primeiros projetos feitos com React.  
+Criei esse **painel financeiro** pra treinar e entender melhor como montar uma interface moderna, parecida com os apps de banco que a gente usa no dia a dia.
 
-## Available Scripts
+A ideia era simples: mostrar saldo, histórico de transações e um gráfico visual pra representar os gastos — tudo de um jeito limpo e fácil de entender.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 O que eu quis treinar aqui
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Esse projeto foi 100% voltado pra **prática**.  
+Quis testar o que aprendi sobre:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Estrutura de um projeto React  
+- Componentes, props e estados  
+- Organização do código e pastas  
+- Estilização com CSS e responsividade  
+- E também um pouquinho de **Node.js** (só pra rodar o ambiente e entender como o React funciona por trás)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧠 Aprendizados
 
-### `npm run build`
+Durante o processo eu percebi o quanto **React facilita a vida** pra criar interfaces dinâmicas.  
+Aprendi a pensar em blocos, dividir o código em partes menores e deixar tudo mais organizado.  
+Também entendi melhor o poder do CSS pra deixar o visual bonito e funcional.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🖼️ Prévia do projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Dashboard Financeiro](src/assets/dashboard-mockup.png)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Tecnologias usadas
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React.js  
+- HTML5  
+- CSS3  
+- JavaScript  
+- Node.js (básico)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🌐 Veja o site online
 
-## Learn More
+👉 [Acessar projeto no Netlify](https://dashboard-financeiro-raissaneri.netlify.app)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
+📧 **Email:** [issaneri190@gmail.com](mailto:issaneri190@gmail.com)  
+💼 **LinkedIn:** [linkedin.com/in/raissaneri-dev](https://www.linkedin.com/in/raissaneri-dev)  
+🌐 **Portfólio:** [meuportifolio-raissaneri.netlify.app](https://meuportifolio-raissaneri.netlify.app)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+✨ *“Aprendendo um pouco mais a cada linha de código.”*
